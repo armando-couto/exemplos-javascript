@@ -1,2 +1,0 @@
-{"ts":1360777284344,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
-{"contributors":[],"silentsave":false,"ts":1360777354654,"patch":[[{"diffs":[[1,"<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n    <meta charset=\"utf-8\">\n    <title>Exemplo Tamanho da Tela</title>\n    <script type=\"text/javascript\">\n        var largura = window.innerWidth;\n        alert(largura);\n    </script>\n</head>\n<body>\n</body>\n</html>"]],"start1":0,"start2":0,"length1":0,"length2":258}]],"length":258,"saved":false}
