@@ -3,6 +3,18 @@
     <head>
         <meta charset="utf-8" />
         <title>Exemplo de Datas</title>
+        
+        <script type="text/javascript">
+            var data = new Date();
+             // alert(data);
+        	var dia = data.getDate();
+        	// dei um incremento para acertar o array do mes pois ele vai do (0 ao 11)
+        	var mes = data.getMonth();
+        	    mes++;
+        	var ano = data.getFullYear();
+        	
+        	document.write(dia+ " / "+mes+"/"+ano);
+        </script>
     </head>
     <body>
     </body>
