@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <title>Exemplo de Boolean</title>
+    <script type="text/javascript">
+        function Aluno(nome,idade,email,curso) {
+          this.nome=nome;
+          this.idade=idade;
+          this.email=email;
+          this.curso=curso;
+        
+          this.ola=function() {
+            alert("Olá, me chamo " + this.nome +
+              "! Faço curso de " + this.curso + " no TreinaWEB");
+          }
+        }
+        
+        AlunoTreinaWEB=new Aluno("Pedro", 18, "pedro@treinaweb.com.br", "JavaScript CrossBrowser");
+        AlunoTreinaWEB.ola();
+    </script>
+</head>
+<body>
+</body>
+</html>
