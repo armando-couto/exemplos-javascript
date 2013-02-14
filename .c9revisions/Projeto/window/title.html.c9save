@@ -1,3 +1,0 @@
-{"ts":1360777153128,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
-{"contributors":[],"silentsave":false,"ts":1360777249139,"patch":[[{"diffs":[[1,"<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n    <meta charset=\"utf-8\">\n    <title>Exemplo Title</title>\n    <script type=\"text/javascript\">\n        var titulo = window.document.title;\n        alert(titulo);\n    </script>\n</head>\n<body>\n</body>\n</html>"]],"start1":0,"start2":0,"length1":0,"length2":250}]],"length":250,"saved":false}
-{"ts":1360777260478,"patch":[[{"diffs":[[0,"o = "],[-1,"window."],[0,"docu"]],"start1":156,"start2":156,"length1":15,"length2":8}]],"length":243,"saved":false}
