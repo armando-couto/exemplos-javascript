@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <title>Exemplo com Array</title>
+    <script type="text/javascript">
+        
+        var bairro = new Array();
+        bairro[0] = 'Porto Novo';
+    	bairro[1] = 'Flexal';
+    	bairro[2] = 'Itaciba';
+    	
+        var bairro2 = new Array('Porto Novo','Itaciba','Flexal','Nova Canaa','BA');	
+    	
+    	function mostra(){
+        	idbairro = prompt('Onde Voce mora?', '0');
+        	alert(bairro[idbairro]);
+    	}
+    	
+    	function mostra2(){
+        	idbairro2 = prompt('Onde Voce mora?', '0');
+        	alert(bairro2[idbairro2]);
+    	}
+    </script>
+</head>
+<body>
+	<form>
+        <input type="submit" value="onde voce mora?" onclick="mostra();" />
+    </form>
+	<form>
+        <input type="submit" value="onde voce mora 2?" onclick="mostra2();" />
+    </form>
+</body>
+</html>
