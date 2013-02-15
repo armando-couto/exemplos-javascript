@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <title>Exemplo Form Envio Variavel</title>
+    <script type="text/javascript">
+        function aluno(nome){
+            alert('Olá' +nome+ 'Seja bem vindo' );
+        	window.location.href('http://www.maxismedia.com.br');
+        }
+    </script>
+</head>
+<body>
+<form name="formulario">
+	<input type="text" name="nome" />
+    <input  type="submit"  value="enviar" onclick="aluno(document.formulario.nome.value)" />
+</form>
+</body>
+</html>

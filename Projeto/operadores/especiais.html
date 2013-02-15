@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <title>Exemplo Especiais</title>
+    <script type="text/javascript">
+        // ternario ? é le "entao : senao tipo if e else
+    	var idade = 21;
+		var x = (idade >= 18) ? "Maior de Idade" : "menor Idade";
+		//alert(x);
+		
+		// separacao de expressoes
+		var nome = 'Wanderson', telefone='32363380', cpf='108676797';
+		//alert(cpf);
+		
+		// delete
+		pessoa = {nome: 'Wanderson', cpf: '10867669705'}
+	//	alert(pessoa.cpf);
+		//delete(pessoa.cpf);// apagou os dados de pessoa.cpf
+	//	alert(pessoa.cpf); //undefined
+		
+		//in
+		//alert("nome" in pessoa); //true
+		//alert("end" in pessoa); // false
+		
+		// instanceof
+		var idade = new Number(2);
+		//alert(idade instanceof Number);  //true
+		
+		// new cria objetos
+		var maxismedia = new Number(23);
+		
+		// this referencia ao objeto
+		//alert(this.document.title);
+        
+		// typeof mostra o tipo do operando
+		//alert(typeof(3)); //number
+		//alert(typeof(true)); //boolean
+		alert(typeof(function(){})); //function  
+    </script>
+</head>
+<body>
+</body>
+</html>

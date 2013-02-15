@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <title>Exemplo Form If</title>
+    <script type="text/javascript">
+    	function suaidade(anos){
+    		if (anos >= 18){
+    		    alert('Voce é maior de idade');
+    		}
+    		else
+    		{
+    		    alert('Voce é menor de idade');
+    		}
+    	}
+    </script>
+</head>
+<body>
+    <form name="formulario">
+        <input name="anos" type="text" />
+        <input type="submit" value="enviar" onclick="suaidade(document.formulario.anos.value)" />
+    </form>
+</body>
+</html>
