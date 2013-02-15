@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <title>Exemplo onMouseOver Imagem</title>
+    <script type="text/javascript">
+        function logoon(){
+    		 document.images["logo"].src="../resources/logoon.jpg";
+    	}
+    	
+    	function logoover(){
+    		 document.images["logo"].src="../resources/logoover.jpg";
+    	}
+    	
+    	function abrindo(){
+    		alert('Eu cliquei');
+    	}
+    </script>
+</head>
+<body>
+    <a href="#" onmouseover="logoon()" onmouseout="logoover()" onclick="abrindo()">
+        <img src="../resources/logoon.jpg" name="logo" />
+    </a>
+</body>
+</html>
